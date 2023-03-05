@@ -55,12 +55,7 @@ h1 {
 button {
   text-transform: uppercase;
   padding: 10px 20px;
-  background: rgb(157, 89, 2);
-  background: linear-gradient(
-    0deg,
-    rgba(157, 89, 2, 1) 0%,
-    rgba(60, 24, 0, 1) 100%
-  );
+  background: rgba(89, 36, 0);
   border-radius: 5px;
   border: 1px solid #d1b077;
   display: inline-block;
@@ -70,13 +65,14 @@ button {
  
 }
 button:hover {
-  background: rgba(60, 24, 0, 1);
-  border: 1px solid #d1b077;
+  background: #d1b077;
+  border: 1px solid rgba(89, 36, 0);
+  color: rgba(89, 36, 0);
 }
 .btn:focus {
-  background: rgba(60, 24, 0, 1);
-  color: #d1b077;
-  border: 1px solid rgba(60, 24, 0, 1);
+  background:#d1b077;
+  color: rgba(89, 36, 0);
+  border: 1px solid rgba(89, 36, 0);
 }
 
 .btn-group {
@@ -89,16 +85,16 @@ button:hover {
   border: 1px solid #d1b077;
 }
 .button:hover {
-  background: rgba(60, 24, 0, 1);
-  border: 1px solid rgba(60, 24, 0, 1);
-  color: #d1b077;
+  background: #d1b077;
+  border: 1px solid rgba(89, 36, 0);
+  color: rgba(89, 36, 0);
 }
 a {
   text-decoration: none;
   color: #d1b077;
 }
 a:hover {
-  color: #d1b077;
+  color: rgba(89, 36, 0);
 }
 .buttons {
   width: 100%;
