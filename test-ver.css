@@ -222,7 +222,9 @@ left: 10%;
   li {
     padding-right: 20px;
   }
-
+  .list {
+  left: 0%;
+  }
   .footer {
     height: 10vh;
     color: #d1b077;
