@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles-getranke.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Quicksand:wght@300&family=Raleway:ital,wght@1,100;1,200&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Oben Skybar</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <div class="gray-div">
+          <div class="inner">
+            <img
+              id="go-back"
+              class="logo-img"
+              src="/img/logo_oben_GRADIENT_online-1-300x148.png"
+              alt="logo"
+            />
+            <h1>menu</h1>
+
+            <div class="buttons">
+              <button><a href="/index.html">Vorspeisen</a></button>
+              <button><a href="/getranke.html">Getränke</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="white-div">
+          <div class="btn-group">
+            <button class="button btn active" onclick="openInfo('cava')">
+              Cava
+            </button>
+            <button class="button btn" onclick="openInfo('wine')">Wine</button>
+            <button class="button btn" onclick="openInfo('weiss')">
+              Weiss Flasche
+            </button>
+            <button class="button btn" onclick="openInfo('rose')">
+              Rose | Rot Flasche
+            </button>
+          </div>
+
+          <div id="cava" class="info">
+            <div class="menu">
+              <h2>Cava</h2>
+              <article class="item">
+                <p class="flavor"></p>
+                <p class="price italic">0,1l</p>
+                <p class="price italic">0,75l</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Cava Dignitat Brut Nature.</p>
+                <p class="price">€ 10</p>
+                <p class="price">€ 65</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Cava Dignitat Brut Rose.</p>
+                <p class="price">€ 11</p>
+                <p class="price">€ 72</p>
+              </article>
+
+              <h2>Champagne</h2>
+              <article class="item">
+                <p class="flavor"></p>
+                <p class="price italic">0,1l</p>
+                <p class="price italic">0,75l</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Drappier Blanc de Blanc Brut</p>
+                <p class="price">€ 18</p>
+                <p class="price">€ 98</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Moet & Chandon Brut Imperial</p>
+                <p class="price">€ 20</p>
+                <p class="price">€ 109</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Perrier Jouet Grand Brut</p>
+                <p class="price"></p>
+                <p class="price">€ 138</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Louis Roderer Brut Premier</p>
+                <p class="price"></p>
+                <p class="price">€ 142</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Ruinart Brut</p>
+                <p class="price"></p>
+                <p class="price">€ 153</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Ruinart Blanc de Blanc</p>
+                <p class="price"></p>
+                <p class="price">€ 197</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Dom Perignon</p>
+                <p class="price"></p>
+                <p class="price">€ 308</p>
+              </article>
+
+              <h2>Rose Champagner</h2>
+              <article class="item">
+                <p class="flavor"></p>
+                <p class="price italic">0,1l</p>
+                <p class="price italic">0,75l</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Drappier Rose Brut Nature Zero Dosage</p>
+                <p class="price">€ 20</p>
+                <p class="price">€ 109</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Moet & Chandon Brut Rose Imperial.</p>
+                <p class="price"></p>
+                <p class="price">€ 142</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Bollinger Rose A.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 153</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Ruinart Brut Rose.</p>
+                <p class="price"></p>
+                <p class="price">€ 164</p>
+              </article>
+
+              <p class="preise-unten">Preise inkl. MwSt.</p>
+            </div>
+          </div>
+
+          <div id="wine" class="info" style="display: none">
+            <div class="menu">
+              <h2>Weiss | Glass <span class="italic">0,1l</span></h2>
+              <article class="item">
+                <p class="flavor">Louis Guntrum | Riesling | Feinherb</p>
+                <p class="price"></p>
+                <p class="price">€ 7</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Gut Gallé | Guter Chardonnay</p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Gut Hermannsberg | "Just" Riesling | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 8</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Gut Hermannsberg | Weisser Burgunder | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Kesselring | Sauvignon Blanc</p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Dr. Loosen | Blauschiefer Riesling Trocken | VDP
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Heitlinger | Pinot Blanc | VDP | BIO</p>
+                <p class="price"></p>
+                <p class="price">€ 11</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Salwey | Grauburgunder | Kabinett | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 11</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Reina de Castilla | Sauvignon Blanc | D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Montespina | Verdejo | D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Alba Vega | Albarino | D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <h2>Rosé | Glass <span class="italic">0,1l</span></h2>
+              <article class="item">
+                <p class="flavor">Kesselring | Blanc de Noir</p>
+                <p class="price"></p>
+                <p class="price">€ 7</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Eichstetter Vulkanfelsen | Spätburgunder | Feinherb
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 7</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Rioja Vega | Garnacha | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 8</p>
+              </article>
+
+              <h2>Rot | Glass <span class="italic">0,1l</span></h2>
+              <article class="item">
+                <p class="flavor">Adams | Spätburgunder Kaliber 12</p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Heitlinger | Pinot Noir Tempranillo | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Don Fadrique | Tempranillo | Reserva</p>
+                <p class="price"></p>
+                <p class="price">€ 10</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Torremilanos Montecastrillo | Tempranillo | Demeter
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Torremilanos | Tempranillo | Crianza | Demeter
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 14</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  DonCosimo | Cantine due Palme | Primitivo | I.G.P.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 10</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Château de Lavagnac | Merlot | Supérieur | AOC
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  La Mision | William Fevre | Cabernet Sauvignon| Reserva
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 9</p>
+              </article>
+              <p class="preise-unten">Preise inkl. MwSt.</p>
+            </div>
+          </div>
+
+          <div id="weiss" class="info" style="display: none">
+            <div class="menu">
+              <h2>Weiss | Flasche</h2>
+              <article class="item">
+                <p class="flavor">
+                  Heitlinger Eichelberg | Pinot Blanc | VDP | GG
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 74</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Heitlinger Spiegelberg | Pinot Gris | VDP | GG
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 77</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Andreas Bender | Paulessen Riesling</p>
+                <p class="price"></p>
+                <p class="price">€ 54</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  VAN VOLXEM | Saar Riesling | Feinherb | VDP
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 61</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Dr.Loosen | Wehlener Sonnenuhr Riesling | VDP | GG
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 83</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Vom Vulkan | Schloßböckelheimer | Riesling | VDP Ortswein
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 61</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Robert Weil | Riesling | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 67</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Adams | Grauburgunder | Kaliber 19</p>
+                <p class="price"></p>
+                <p class="price">€ 67</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Adams | White Wedding | Kaliber 21</p>
+                <p class="price"></p>
+                <p class="price">€ 72</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Knipser | Sauvignon Blanc | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 61</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Knipser | Chardonnay | 4* | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 138</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Knipser Steinbuckel | Riesling | VDP | GG</p>
+                <p class="price"></p>
+                <p class="price">€ 116</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Reina de Castilla | Sauvignon Blanc | D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 72</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Montespina | Verdejo | D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 55</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Finca Venta Don Quijote | Sauvignon Blanc</p>
+                <p class="price"></p>
+                <p class="price">€ 44</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Alba Vega | Albarino | D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 66</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Alois Lageder | Chardonnay | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 55</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Alois Lageder | Pinot Bianco | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 61</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Roero Arneis | Serra Lupini | D.O.C.G.</p>
+                <p class="price"></p>
+                <p class="price">€ 61</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Gavi di Gavi | Lugarara | D.O.C.G.</p>
+                <p class="price"></p>
+                <p class="price">€ 63</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Bertani | Lugana | Le Quaiare | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 55</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Valle Real | Trebbiano | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 77</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Jean Marc Brocard | Chablis | A.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 72</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Domaine Weinbach | Gewürztraminer | Reserve
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 88</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Fred Loimer | Ried Loiserberg Grüner Veltliner
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 72</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Casa Silva | Angostura Chardonnay | Single Vineyard
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 65</p>
+              </article>
+              <p class="preise-unten">Preise inkl. MwSt.</p>
+            </div>
+          </div>
+
+          <div id="rose" class="info" style="display: none">
+            <div class="menu">
+              <h2>Rosé | Flasche</h2>
+
+              <article class="item">
+                <p class="flavor">Rioja Vega | Garnacha | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 50</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Reina de Castilla | Isabelino | D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 55</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Reichsrat von Buhl | Spätburgunder | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 65</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Montrose Rose | I.G.P.</p>
+                <p class="price"></p>
+                <p class="price">€ 61</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Alain Jaume Bellissime | BIO</p>
+                <p class="price"></p>
+                <p class="price">€ 65</p>
+              </article>
+
+              <h2>Rot | Flasche</h2>
+
+              <article class="item">
+                <p class="flavor">Heitlinger | Pinot Noir | Reserve | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 54</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Heitlinger | Pinot Meunier | Reserve | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 54</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Hades | Lemberger | Barrique | VDP</p>
+                <p class="price"></p>
+                <p class="price">€ 87</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Altos de la Hoya | Monastrell und Garnacha | D.O.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 55</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Casa Castillo | Monastrell | D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 66</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Bodegas Zamoraero | Valpiculata D.O.</p>
+                <p class="price"></p>
+                <p class="price">€ 66</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Torre Albeniz | Tempranillo | Reserva | Demeter
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 97</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Finca de la rica buscardo | Tempranillo | Crianza | D.O.C.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 61</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Lan | Tempranillo | Crianza | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 66</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Marques de Murrieta | Tempranillo | Reserva | D.O.Ca.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 72</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Muriel | Tempranillo | Reserva | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 73</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Vina Real | Cuvee | Reserva | D.O.C.</p>
+                <p class="price"></p>
+                <p class="price">€ 77</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Cosme Palacio | Tempranillo | Reserva | D.O.Ca.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 99</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Marques de Murrieta | Grand Reserva Especial | D.O.Ca.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 196</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Lan Culmen | Tempranillo | Reserva Alta Seleccion | D.O.C.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 219</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Clos Figueras Priorat | Grenache und Carignan | D.O.Q.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 208</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Corzano & Paterno | Chianti | Terre di Corzano | DOCG
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 61</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Alois Lageder | Cabernet Sauvignon | Reserva
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 72</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Alois Lageder | Lagrein</p>
+                <p class="price"></p>
+                <p class="price">€ 72</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Casal Vegri | Valpolicella | Classico Superior | D.O.C.
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 76</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Angelo Negro | Barbera d'Alba Nicolon | DOC
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 66</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Franco Conterno | Barolo | DOCG</p>
+                <p class="price"></p>
+                <p class="price">€ 87</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Francois Lamarche | Pinot Noir</p>
+                <p class="price"></p>
+                <p class="price">€ 94</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Château de Lavagnac | AOC</p>
+                <p class="price"></p>
+                <p class="price">€ 55</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Château Cabanes-Voisin | Grand Cru</p>
+                <p class="price"></p>
+                <p class="price">€ 72</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Château les Templiers | Lalande de Pomerol</p>
+                <p class="price"></p>
+                <p class="price">€ 83</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Clos des Menuts | Grand Cru</p>
+                <p class="price"></p>
+                <p class="price">€ 94</p>
+              </article>
+              <article class="item">
+                <p class="flavor">Château La Pointe | AOC</p>
+                <p class="price"></p>
+                <p class="price">€ 121</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Château Duhart Milon Rothschild | 4me Cru Classé | Pauillac
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 297</p>
+              </article>
+              <article class="item">
+                <p class="flavor">
+                  Château Ducru-Beaucaillou | 2me Cru Classé | Saint Julien
+                </p>
+                <p class="price"></p>
+                <p class="price">€ 329</p>
+              </article>
+              <p class="preise-unten">Preise inkl. MwSt.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <button class="back-to">
+            <a href="https://oben-frankfurt.de/restaurant/" target="_blank"
+              >to website</a
+            >
+          </button>
+          <button class="testButton1">
+            <a href="#go-back">oben</a
+            ><img src="/img/pfeile-nach-oben.png" alt="oben-button" />
+          </button>
+          <p>Copyright © 2023 - Meliá Hotels International</p>
+        </div>
+      </footer>
+    </div>
+    <script src="/getrenke-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/test-ver.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Quicksand:wght@300&family=Raleway:ital,wght@1,100;1,200&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Oben Skybar</title>
+  </head>
+  <body>
+    <div class="gray-div">
+      <div class="inner">
+        <img
+          id="go-back"
+          class="logo-img"
+          src="/img/logo_oben_GRADIENT_online-1-300x148.png"
+          alt="logo"
+        />
+        <h1>menu</h1>
+        <div class="buttons">
+          <button><a href="/index.html">Vorspeisen</a></button>
+          <button><a href="/getranke.html">Getränke</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="white-div">
+      <div class="btn-group">
+        <button class="button btn active" onclick="openInfo('vorspeisen')">
+          Vorspeisen
+        </button>
+        <button class="button btn" onclick="openInfo('meer')">
+          Aus dem Meer
+        </button>
+        <button class="button btn" onclick="openInfo('land')">Vom Lande</button>
+        <button class="button btn" onclick="openInfo('dessert')">
+          Dessert
+        </button>
+      </div>
+
+      <div id="vorspeisen" class="info">
+        <div class="menu">
+          <h2>Vorspeisen</h2>
+          <article class="item">
+            <p class="flavor">Zweierlei Croquetas<sup>1.4.9</sup></p>
+            <p class="price"></p>
+            <p class="price">€ 8</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Gegrillte Salchicha<sup>1.4.7.9</sup></p>
+            <p class="price"></p>
+            <p class="price">€ 8</p>
+          </article>
+          <article class="item">
+            <p class="flavor">
+              Gemüse Suppe mit Veganer Pasta <sup>5.9.13</sup>
+            </p>
+            <p class="price"></p>
+            <p class="price">€19</p>
+          </article>
+          <article class="item">
+            <p class="flavor">
+              Spanischer Kartoffelsalat <sup>1.2.3.4.7.12</sup>
+            </p>
+            <p class="price"></p>
+            <p class="price">€18</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Tartar von Roter Beete <sup>7</sup></p>
+            <p class="price"></p>
+            <p class="price">€18</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Terrine von der Kartoffel <sup>1.2.4.7.9</sup></p>
+            <p class="price"></p>
+            <p class="price">€36</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mallorquinische Tarte <sup>1.4.7.9.11.12</sup></p>
+            <p class="price"></p>
+            <p class="price">€26</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Veganes Spanisches Omelett <sup>7.9.13</sup></p>
+            <p class="price"></p>
+            <p class="price">€18</p>
+          </article>
+          <article class="item">
+            <p class="flavor">
+              Gebackene Riesengarnelen <sup>1.3.4.7.9.12</sup>
+            </p>
+            <p class="price"></p>
+            <p class="price">€26</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Gegrillter Pulpo <sup>30 4.14</sup></p>
+            <p class="price"></p>
+            <p class="price">€30</p>
+          </article>
+          <div class="list">
+            <ol>
+              <li>Eier</li>
+              <li>Fisch</li>
+              <li>Krebstiere</li>
+              <li>Milch</li>
+              <li>Sellerie</li>
+              <li>Sesam</li>
+              <li>Sulfite</li>
+              <li>Erdnüsse</li>
+              <li>Gluten</li>
+              <li>Lupine</li>
+              <li>Schalenfrüchte</li>
+              <li>Senf</li>
+              <li>Soja</li>
+              <li>Weichtiere</li>
+            </ol>
+            <p class="preise-list">Preise inkl. wSt.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="meer" class="info" style="display: none">
+        <div class="menu">
+          <h2>Aus dem Meer</h2>
+          <article class="item">
+            <p class="flavor">Gegrillter Mini-Kalmar <sup>4.7.9.12.14</sup></p>
+            <p class="price"></p>
+            <p class="price">€26</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hummercremesuppe <sup>2.3.7.14</sup></p>
+            <p class="price"></p>
+            <p class="price">€38</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Flageoletts Bohnen <sup>2.3.5.9.1</sup></p>
+            <p class="price"></p>
+            <p class="price">€27</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Gegrillter Riesenkalmar <sup>1.4.7.12.14</sup></p>
+            <p class="price"></p>
+            <p class="price">€37</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Spanische Brotsuppe <sup>2.5.6.7.9</sup></p>
+            <p class="price"></p>
+            <p class="price">€34</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Seehecht und Vongole <sup>2.3.7.9.14</sup></p>
+            <p class="price"></p>
+            <p class="price">€37</p>
+          </article>
+          <div class="list">
+            <ol>
+              <li>Eier</li>
+              <li>Fisch</li>
+              <li>Krebstiere</li>
+              <li>Milch</li>
+              <li>Sellerie</li>
+              <li>Sesam</li>
+              <li>Sulfite</li>
+              <li>Erdnüsse</li>
+              <li>Gluten</li>
+              <li>Lupine</li>
+              <li>Schalenfrüchte</li>
+              <li>Senf</li>
+              <li>Soja</li>
+              <li>Weichtiere</li>
+            </ol>
+            <p class="preise-list">Preise inkl. wSt.</p>
+          </div>
+        </div>
+      </div>
+      <div id="land" class="info" style="display: none">
+        <div class="menu">
+          <h2>Vom Lande</h2>
+          <article class="item">
+            <p class="flavor">Sautierte Pilze der Saison<sup>1.7.9</sup></p>
+            <p class="price"></p>
+            <p class="price">€29</p>
+          </article>
+          <article class="item">
+            <p class="flavor">
+              Geschmorte Iberische Schweinebäckchen<sup>4.7.9</sup>
+            </p>
+            <p class="price"></p>
+            <p class="price">€32</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Rücken vom Duroc Schwein<sup>4.7</sup></p>
+            <p class="price"></p>
+            <p class="price">€34</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Sautierte Rinderfiletwürfel<sup>4.7</sup></p>
+            <p class="price"></p>
+            <p class="price">€39</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Karree vom Lamm mit Portwein<sup>1.4.7.9</sup></p>
+            <p class="price"></p>
+            <p class="price">€43</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Filet vom Rind<sup>7</sup></p>
+            <p class="price"></p>
+            <p class="price">€46</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Ochsenschwanz Cannelloni <sup>1.4.5.7.9</sup></p>
+            <p class="price"></p>
+            <p class="price">€33</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Rebhuhn mit Reis <sup>1.4.5.6.7.9.12.13</sup></p>
+            <p class="price"></p>
+            <p class="price">€28</p>
+          </article>
+          <div class="list">
+            <ol>
+              <li>Eier</li>
+              <li>Fisch</li>
+              <li>Krebstiere</li>
+              <li>Milch</li>
+              <li>Sellerie</li>
+              <li>Sesam</li>
+              <li>Sulfite</li>
+              <li>Erdnüsse</li>
+              <li>Gluten</li>
+              <li>Lupine</li>
+              <li>Schalenfrüchte</li>
+              <li>Senf</li>
+              <li>Soja</li>
+              <li>Weichtiere</li>
+            </ol>
+            <p class="preise-list">Preise inkl. wSt.</p>
+          </div>
+        </div>
+      </div>
+      <div id="dessert" class="info" style="display: none">
+        <div class="menu">
+          <h2>Dessert</h2>
+
+          <article class="item">
+            <p class="flavor">Mangotörtchen<sup>1.4.9</sup></p>
+            <p class="price"></p>
+            <p class="price">€ 13</p>
+          </article>
+          <article class="item">
+            <p class="flavor">
+              Zweierlei Eis von Mandel und Pistazie<sup>1.4.6.8.9.11.13</sup>
+            </p>
+            <p class="price"></p>
+            <p class="price">€ 13</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Haselnuss Eis<sup>1.4.6.8.9.11.13</sup></p>
+            <p class="price"></p>
+            <p class="price">€ 13</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Creme Brûlée<sup>1.4</sup></p>
+            <p class="price"></p>
+            <p class="price">€ 13</p>
+          </article>
+          <div class="list">
+            <ol class="inline-list">
+              <li>Eier</li>
+              <li>Fisch</li>
+              <li>Krebstiere</li>
+              <li>Milch</li>
+              <li>Sellerie</li>
+              <li>Sesam</li>
+              <li>Sulfite</li>
+              <li>Erdnüsse</li>
+              <li>Gluten</li>
+              <li>Lupine</li>
+              <li>Schalenfrüchte</li>
+              <li>Senf</li>
+              <li>Soja</li>
+              <li>Weichtiere</li>
+            </ol>
+            <p class="preise-list">Preise inkl. wSt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <button class="back-to">
+          <a href="https://oben-frankfurt.de/restaurant/" target="_blank"
+            >to website</a
+          >
+        </button>
+        <button class="testButton1">
+          <a href="#go-back">oben</a
+          ><img src="/img/pfeile-nach-oben.png" alt="oben-button" />
+        </button>
+        <p>Copyright © 2023 - Meliá Hotels International</p>
+      </div>
+    </footer>
+    <script src="/index.js"></script>
+  </body>
+</html>
