@@ -203,7 +203,8 @@ li {
     width: 150px;
   }
   .menu {
-    margin: 20px auto 20px auto;
+    height: 85vh;
+    margin: 20px 5px 20px 5px;
     padding: 10px 20px 5px 20px;
   }
 
