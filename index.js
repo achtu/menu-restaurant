@@ -14,3 +14,4 @@ function openInfo(infoName) {
     }
     document.getElementById(infoName).style.display = "block";
   }
+window.scrollTo(0,0);
