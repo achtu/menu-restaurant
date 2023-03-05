@@ -175,3 +175,61 @@ li {
 .testButton1 img {
   width: 15px;
 }
+
+@media screen and (max-width: 992px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .gray-div {
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gray-div:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    height: 50%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  button {
+    min-width: 70px;
+    min-height: 30px;
+    font-size: 12px;
+  }
+  .logo-img {
+    width: 150px;
+  }
+  .menu {
+    margin: 20px auto 20px auto;
+    padding: 10px 20px 5px 20px;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  ol {
+    padding-top: 10px;
+  }
+  li {
+    padding-right: 20px;
+  }
+
+  .footer {
+    height: 10vh;
+    color: #d1b077;
+  }
+}
