@@ -92,9 +92,11 @@ button:hover {
 a {
   text-decoration: none;
   color: #d1b077;
+  padding: 5px 10px;
 }
 a:hover {
   color: rgba(89, 36, 0);
+  padding: 5px 10px;
 }
 .buttons {
   width: 100%;
