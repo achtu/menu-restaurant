@@ -207,7 +207,8 @@ left: 10%;
   .menu {
     height: 85vh;
     margin: 20px 5px 20px 5px;
-    padding: 10px 20px 5px 20px;
+    padding: 10px 20px 110px 20px;
+    height: fit-content;
   }
 
   h2 {
@@ -221,6 +222,12 @@ left: 10%;
   }
   li {
     padding-right: 20px;
+  }
+  .flavor {
+    width:65%;
+  }
+  .price {
+    width: 15%;
   }
   .list {
   left: 0%;
