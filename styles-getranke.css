@@ -162,3 +162,57 @@ h2 {
 .testButton1 img {
   width: 15px;
 }
+
+@media screen and (max-width: 992px) {
+  html,
+  body {
+ 
+    background-repeat: no-repeat;
+
+  height: 100vh;
+ 
+  }
+  .gray-div {
+    height: 50vh;
+    background-size: cover;
+  }
+  .gray-div:after {
+    height: 50%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  button {
+    margin: 1px;
+    min-width: 70px;
+    min-height: 30px;
+    font-size: 12px;
+  
+  }
+  .logo-img {
+    width: 150px;
+  }
+  .menu {
+    margin: 20px auto 20px auto;
+    padding: 10px 20px 5px 20px;
+  }
+  h2 {
+    text-align: center;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  .flavor {
+    width:65%;
+  }
+  .price {
+    width: 15%;
+  }
+  .footer {
+    height: 11vh;
+    color: #d1b077;
+  }
+  .testButton1 img {
+    width: 10px;
+  }
+}

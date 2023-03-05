@@ -189,14 +189,6 @@ li {
   }
 
   .gray-div:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 2;
     height: 50%;
   }
   h1 {
@@ -231,5 +223,8 @@ li {
   .footer {
     height: 10vh;
     color: #d1b077;
+  }
+  .testButton1 img {
+    width: 10px;
   }
 }
